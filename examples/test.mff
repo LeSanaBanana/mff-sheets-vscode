@@ -1,0 +1,51 @@
+title||1.0||title.jpg||C.T.P. Allocations Guide
+
+
+c|| || ||PvE Dealers||10.2_deadpool
+
+h||Alliance Battle Focused
+
+p||twice||ctp_rage||Rage
+pt||
+t||Rage is always the ideal choice for Alliance Battle, even if the character is perfectly proc-friendly.
+t||Reforge: Helps, but not necessary. Can add about 1m score depending on the character, mostly for pushing higher scores. It's recommended to have a regular Rage on everyone you need for ABX/L before reforging.
+
+h||World Boss Legend Focused
+
+p||twice||ctp_energy||Energy
+pt||
+t||Energy is good for proc-friendly characters who do not have innate Chain Hit Damage. Note that some characters gain Chain Hit Damage later on (e.g. on Tier-4 Striker Skill) which may change the recommendation.
+t||Reforge: Helps, but not necessary. As you start pushing WBL to higher stages, the added Pierce will help a lot. 
+
+p||twice||ctp_destruction||Destruction
+pt||
+t||Destruction is good for proc-friendly characters who do have innate Chain Hit Damage. 
+t||Reforge: Absolutely necessary.
+
+p||twice||ctp_judgement||Judgement
+pt||
+t||Judgement only works for characters who deal Elemental Damage, and ideally ones that are not proc-friendly. Performs better than a Rage in most cases.
+t||Due to diminishing returns on Elemental buffs, it may be less effective on characters with substantial Elemental buffs natively.
+t||Reforge: Helps, but not necessary. Basically just makes it deal a bit more damage. There are not many characters who can make good use of Judgement, so it is probably okay to Reforge.
+
+p||twice||ctp_rage||Rage
+pt||
+t||Rage is good for WBL characters who are completely not proc-friendly, and not Elemental (thus unable to use Judgement). 
+t||Such characters are unideal in most cases, but there are some exceptions that are great in WBL with a Rage.
+t||Reforge: Helps, but not necessary, especially for WBL purposes.
+
+h||Giant Boss Raid
+
+p||twice||ctp_rage||Rage
+pt||
+t||Similar to 
+
+h||Dispatch Missions / Zombie Survival
+
+colimg||(ctp_rage,twice)||(ctp_judgement,twice)
+
+t||The chaotic nature of these modes makes a persistent proc ideal. Especially if running multiple dealers.
+
+c|| || ||PvP Dealers||10.2_wolverine
+
+

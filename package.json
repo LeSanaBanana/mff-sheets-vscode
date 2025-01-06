@@ -1,0 +1,40 @@
+{
+  "name": "mff",
+  "displayName": "mff",
+  "description": "MFF Sheets syntax",
+  "version": "0.0.2",
+  "publisher": "THANO$VIB$$",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": ["Programming Languages"],
+  "activationEvents": [
+    "onLanguage:mff"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "languages": [{
+      "id": "mff",
+      "aliases": ["MFF Sheet", "mff"],
+      "extensions": [".mff", ".mffs"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "mff",
+      "scopeName": "source.mff",
+      "path": "./syntaxes/mff.tmLanguage.json"
+    }],
+    "configurationDefaults": {
+      "[mff]": {
+        "editor.quickSuggestions": {
+          "other": true,
+          "comments": false,
+          "strings": true
+        },
+        "editor.suggestOnTriggerCharacters": true,
+        "editor.acceptSuggestionOnCommitCharacter": true
+      }
+      
+    }
+  }
+}

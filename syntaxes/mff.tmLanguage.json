@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "MFF Sheet",
+	"patterns": [
+		{
+			"name": "keyword.command.customlang",
+			"match": "^[^|]+"
+		},
+		{
+			"name": "constant.separator.customlang",
+			"match": "\\|\\|"
+		},
+		{
+			"name": "string.argument.customlang",
+			"match": "(?<=\\|\\|)[^|]+"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.mff",
+					"match": "\\b(if|while|for|return)\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.mff",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.mff",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.mff"
+}

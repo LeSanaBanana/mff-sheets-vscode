@@ -1,0 +1,165 @@
+{
+  "p||": {
+    "tooltip": "Portrait",
+    "parts": [
+      { "name": "frame", "tooltip": "Frame\nFrame colour." },
+      { "name": "portrait", "tooltip": "Portrait\nCharacter or item portrait filename." },
+      { "name": "text", "tooltip": "Text\nHeading text to write next to the portrait." }
+    ]
+  },
+  "pt||": {
+    "tooltip": "Portrait Text",
+    "parts": [
+      { "name": "detail", "tooltip": "Detail\nInformation about the portrait." }
+    ]
+  },
+  "h||": {
+    "tooltip": "Header",
+    "parts": [
+      { "name": "text", "tooltip": "Text\nHeading text to write." }
+    ]
+  },
+  "t||": {
+    "tooltip": "Text",
+    "parts": [
+      { "name": "text", "tooltip": "Text\nBody text to write." }
+    ]
+  },
+  "bq||": {
+    "tooltip": "Block Quote",
+    "parts": [
+      { "name": "inner_tag", "tooltip": "Inner Tag\nAccepts a HTML tag (e.g., b for bold, i for italics, code for monospace) for additional subheading formatting. If regular text is desired, enter 'p'." },
+      { "name": "text", "tooltip": "Text\nWrites text within a block quote." }
+    ]
+  },
+  "tt||": {
+    "tooltip": "Tagged Text",
+    "parts": [
+      { "name": "inner_tag", "tooltip": "Inner Tag\nThe inner tag to use." },
+      { "name": "text", "tooltip": "Text\nThe text to write." }
+    ]
+  },
+  "b||": {
+    "tooltip": "Break",
+    "parts": [
+      { "name": "number_of_pixels", "tooltip": "Number of Pixels\nOnly relevant for the Python version. Inserts a blank space with a given pixel height." }
+    ]
+  },
+  "c||": {
+    "tooltip": "Cards",
+    "parts": [
+      { "name": "bg_colour", "tooltip": "Background Colour\nThe background colour for the card." },
+      { "name": "text_outline_colour", "tooltip": "Text Outline Colour\nThe outline colour for the text." },
+      { "name": "card_title", "tooltip": "Card Title\nThe title of the card." },
+      { "name": "banner_name", "tooltip": "Banner Name\nThe name of the banner." }
+    ]
+  },
+  "img||": {
+    "tooltip": "Images",
+    "parts": [
+      { "name": "alignment", "tooltip": "Alignment\nThe alignment of the image." },
+      { "name": "filename", "tooltip": "Filename\nThe name of the image file." },
+      { "name": "max_width", "tooltip": "Max Width\nThe maximum width of the image." }
+    ]
+  },
+  "lp||": {
+    "tooltip": "Local Portraits",
+    "parts": [
+      { "name": "frame", "tooltip": "Frame\nThe colour of the outline around the image." },
+      { "name": "local_filename", "tooltip": "Local Filename\nThe name of the local image file." },
+      { "name": "text", "tooltip": "Text\nThe heading text to place next to the portrait." }
+    ]
+  },
+  "subp||": {
+    "tooltip": "Subportraits",
+    "parts": [
+      { "name": "frame", "tooltip": "Frame\nThe colour of the outline around the image." },
+      { "name": "filename", "tooltip": "Filename\nThe name of the portrait." },
+      { "name": "index", "tooltip": "Index\nThe index of the subportrait in the sequence." },
+      { "name": "end_sequence?", "tooltip": "End Sequence?\nA 'yes'/'no' value to determine if this is the final row related to the initial 'p' or 'lp'." }
+    ]
+  },
+  "subpt||": {
+    "tooltip": "Subportrait Text",
+    "parts": [
+      { "name": "index", "tooltip": "Index\nThe index of the subportrait." },
+      { "name": "text", "tooltip": "Text\nThe text to write next to the subportrait." }
+    ]
+  },
+  "cstart||": {
+    "tooltip": "Collection Start",
+    "parts": []
+  },
+  "cfilter||": {
+    "tooltip": "Collection Filter",
+    "parts": [
+      { "name": "custom_text", "tooltip": "Custom Text\nOptionally changes the 'TOGGLE MINOR REWARDS' text to a custom string." }
+    ]
+  },
+  "cstop||": {
+    "tooltip": "Collection Stop",
+    "parts": []
+  },
+  "eq||": {
+    "tooltip": "Epic Quest",
+    "parts": [
+      { "name": "number", "tooltip": "Number\nA number input here will be displayed on the right side of the row. If not required, leave as a space.\nTo mark the row as 'important', write the letter 'i' after the number, e.g. '10i'. This will make the number a highlight colour and allow for filtering with Collection Filter." },
+      { "name": "frame_1", "tooltip": "Frame 1\nThe frame colour of the first icon." },
+      { "name": "filename_1", "tooltip": "Filename 1\nThe filename of the first icon." },
+      { "name": "qty_1", "tooltip": "Quantity 1\nThe quantity of the first icon." },
+      { "name": "frame_2", "tooltip": "Frame 2\nThe frame colour of the second icon." },
+      { "name": "filename_2", "tooltip": "Filename 2\nThe filename of the second icon." },
+      { "name": "qty_2", "tooltip": "Quantity 2\nThe quantity of the second icon." },
+      { "name": "bold_text", "tooltip": "Bold Text\nThe bold text to display." },
+      { "name": "standard_text", "tooltip": "Standard Text\nThe standard text to display." }
+    ]
+  },
+  "eqb||": {
+    "tooltip": "Epic Quest Basic",
+    "parts": [
+      { "name": "number", "tooltip": "Number\nA number input here will be displayed on the right side of the row. If not required, leave as a space.\nTo mark the row as 'important', write the letter 'i' after the number, e.g. '10i'. This will make the number a highlight colour and allow for filtering with Collection Filter." },
+      { "name": "frame_1", "tooltip": "Frame 1\nThe frame colour of the first icon." },
+      { "name": "filename_1", "tooltip": "Filename 1\nThe filename of the first icon." },
+      { "name": "qty_1", "tooltip": "Quantity 1\nThe quantity of the first icon." },
+      { "name": "bold_text", "tooltip": "Bold Text\nThe bold text to display." },
+      { "name": "standard_text", "tooltip": "Standard Text\nThe standard text to display." }
+    ]
+  },
+  "eqe||": {
+    "tooltip": "Epic Quest Empty",
+    "parts": [
+      { "name": "number", "tooltip": "Number\nA number input here will be displayed on the right side of the row. If not required, leave as a space.\nTo mark the row as 'important', write the letter 'i' after the number, e.g. '10i'. This will make the number a highlight colour and allow for filtering with Collection Filter." },
+      { "name": "bold_text", "tooltip": "Bold Text\nThe bold text to display." },
+      { "name": "standard_text", "tooltip": "Standard Text\nThe standard text to display." }
+    ]
+  },
+  "eqd||": {
+    "tooltip": "Epic Quest Divider",
+    "parts": []
+  },
+  "title||": {
+    "tooltip": "Title",
+    "parts": [
+      { "name": "version", "tooltip": "Version\nThe version of the major update to take the Key Art from." },
+      { "name": "filename", "tooltip": "Filename\nThe filename of the key art image, including file extension. Usually title.jpg." },
+      { "name": "text", "tooltip": "Text\nThe title text to display." }
+    ]
+  },
+  "colimg||": {
+    "tooltip": "Column Image",
+    "exception": true,
+    "parts": [
+      {
+        "name": "(portrait,frame)", "tooltip": "Portrait, Frame\nPortrait filename and frame colour respectively. More tuples can be chained on after additional ||s."
+      }
+    ]
+  },
+  "btn||": {
+    "tooltip": "Button",
+    "parts": [
+      { "name": "button_type", "tooltip": "Button Type\nType of button to insert, either \"icon\" or \"text\"." },
+      { "name": "link", "tooltip": "URL or local path to link the button to." },
+      { "name": "display", "tooltip": "Text (for text button) or Material Icon (for icon button) to display inside the button." }
+    ]
+  }
+}
