@@ -161,5 +161,11 @@
       { "name": "link", "tooltip": "URL or local path to link the button to." },
       { "name": "display", "tooltip": "Text (for text button) or Material Icon (for icon button) to display inside the button." }
     ]
+  },
+  "customhtml||": {
+    "tooltip": "Custom HTML",
+    "parts": [
+      { "name": "html_data", "tooltip": "HTML Data\nAny valid HTML data to display." }
+    ]
   }
 }

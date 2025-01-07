@@ -48,10 +48,16 @@ function activate(context) {
         lines.forEach((line, lineIndex) => {
             const parts = line.split('||');
             const command = parts[0] + '||';
-            
-            if (tooltips[command] && !tooltips[command].exception && Array.isArray(tooltips[command].parts)) {
-                const expectedPartsCount = tooltips[command].parts.length + 1; // +1 for the command itself
-                if (parts.length !== expectedPartsCount) {
+
+            if (tooltips[command]) {
+                const expectedPartsCount = tooltips[command].parts ? tooltips[command].parts.length + 1 : 1;
+
+                if (tooltips[command].exception || (expectedPartsCount === 1 && parts.length === 2)) {
+                    // Allow lines with zero parts to be valid if they contain exactly one occurrence of "||"
+                    return;
+                }
+
+                if (Array.isArray(tooltips[command].parts) && parts.length !== expectedPartsCount) {
                     const range = new vscode.Range(lineIndex, 0, lineIndex, line.length);
                     const diagnostic = new vscode.Diagnostic(range, `Expected ${expectedPartsCount - 1} arguments, but found ${parts.length - 1}.`, vscode.DiagnosticSeverity.Error);
                     diagnostics.push(diagnostic);
